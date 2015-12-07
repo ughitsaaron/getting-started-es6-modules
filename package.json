@@ -1,0 +1,23 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "rollup": "./bin/rollup"
+  },
+  "scripts": {
+    "start": "rollup -c | node",
+    "build": "rollup -c --output bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015-rollup": "^1.0.0",
+    "lodash-es": "lodash/lodash#es",
+    "rollup": "^0.21.2",
+    "rollup-plugin-babel": "^2.2.0",
+    "rollup-plugin-npm": "^1.1.0"
+  }
+}
